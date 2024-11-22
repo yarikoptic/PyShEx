@@ -199,7 +199,7 @@ class Context:
 
     def reset(self) -> None:
         """
-        Reset the context preceeding an evaluation
+        Reset the context preceding an evaluation
         """
         self.evaluating = set()
         self.assumptions = {}
